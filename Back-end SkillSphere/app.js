@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const { v4: uuidv4 } = require('uuid');
 const { trainings } = require('./data/trainings');
 const { users } = require('./data/users');
+const { organizers } = require('./data/organizers');
 
 const app = express();
 
@@ -69,6 +70,27 @@ app.get('/trainings/:id', (req, res) => {
   } else {
     res.status(404).send('Training not found');
   }
+});
+
+// Endpoint to get all users
+app.get('/organizers', (req, res) => {
+  res.json(organizers);
+});
+
+// Endpoint to add a new user
+app.post('/organizers', (req, res) => {
+  const { username, password, email, pelatihan_id } = req.body;
+
+  const newUser = {
+    id: uuidv4(),
+    username,
+    password,
+    email,
+    pelatihan_id
+  };
+
+  organizers.push(newUser);
+  res.status(201).json(newUser);
 });
 
 // Endpoint to get all users
