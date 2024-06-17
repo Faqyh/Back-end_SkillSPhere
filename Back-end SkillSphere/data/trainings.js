@@ -8,11 +8,11 @@ let trainings = [
     nama_pelatihan: "Mobile App Developer",
     penyelenggara: "Dicoding Indonesia",
     durasi: 6,
-    kelompok_umur : "15-30 Tahun",
+    kelompok_umur : "15-30",
     kategori: "Teknologi Informasi",
     deskripsi: "On the other hand we denounce with righteous indignation...",
     persyaratan: [
-      "Pria/Wanita Berusia 18-40 Tahun",
+      "Pria/Wanita Berusia 18-40 ",
       "Tidak Sedang Bekerja/Kuliah",
       "Memiliki Laptop/Komputer Minimum ram 4 GB",
       "Memahami dasar pemrograman mobile"
@@ -35,7 +35,7 @@ let trainings = [
     nama_pelatihan: "Web Development Bootcamp",
     penyelenggara: "Codecademy",
     durasi: 8,
-    kelompok_umur : "18-40 Tahun",
+    kelompok_umur : "18-40",
     kategori: "Teknologi Informasi",
     deskripsi: "This bootcamp will teach you the fundamentals of web development...",
     persyaratan: [
@@ -60,7 +60,7 @@ let trainings = [
     nama_pelatihan: "Data Science with Python",
     penyelenggara: "Coursera",
     durasi: 10,
-    kelompok_umur : "30 Tahun ke atas",
+    kelompok_umur : "30-40",
     kategori: "Data Science",
     deskripsi: "Learn data science with Python in this comprehensive course...",
     persyaratan: [
