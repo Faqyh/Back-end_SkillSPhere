@@ -26,8 +26,8 @@ npm run start
 ---
 
 ## How To Use It
-
-**Base Url** :  `http://localhost:3000/`
+Run the project then open [POSTMAN](https://www.postman.com/)
+**Base Url** :  `http://localhost:3000`
 
 | Endpoint | Usage | Method |
 |----------|-------|----------|
