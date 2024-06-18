@@ -13,7 +13,7 @@ git clone https://github.com/Faqyh/Back-end_SkillSPhere.git
 Then, install dependencies and fetch data to your local machine. **Note that we use NPM**
 
 ```bash
-cd Rasa-in-Backend
+cd Back-end_SkillSPhere
 npm install
 ```
 
