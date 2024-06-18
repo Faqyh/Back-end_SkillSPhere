@@ -3,16 +3,16 @@ const { v4: uuidv4 } = require("uuid");
 let organizers = [
   {
     id: uuidv4(),
-    username: "pelatihan",
+    username: "Belajar co.id",
     password: "pelatihan",
     email: "bigo@example.com",
     pelatihan_id: [],
   },
   {
     id: uuidv4(),
-    username: "pelatihan2",
-    password: "pelatihan2",
-    email: "bigo@example.com",
+    username: "PT Dicoding",
+    password: "123",
+    email: "123@gmail.com",
     pelatihan_id: [],
   },
 ];
